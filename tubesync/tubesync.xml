@@ -12,7 +12,7 @@
   <Overview>Syncs YouTube channels and playlists to a locally hosted media server</Overview>
   <Category>Downloaders: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:4848]/</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/tcely/unraid-templates/refs/heads/main/tubesync/tubesync.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/meeb/tubesync/main/tubesync/common/static/images/tubesync.png</Icon>
   <ExtraParams/>
   <PostArgs/>
