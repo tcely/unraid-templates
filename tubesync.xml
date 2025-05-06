@@ -7,9 +7,9 @@
   <MyIP/>
   <Shell>/command/with-contenv bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/meeb/tubesync</Support>
+  <Support>https://github.com/meeb/tubesync/issues</Support>
   <Project>https://github.com/meeb/tubesync</Project>
-  <Overview>TubeSync is a PVR (personal video recorder) for YouTube. Or, like Sonarr but for YouTube (with a built-in download client). It is designed to synchronize channels and playlists from YouTube to local directories and update your media server once media is downloaded.</Overview>
+  <Overview>Syncs YouTube channels and playlists to a locally hosted media server</Overview>
   <Category>Downloaders: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:4848]/</WebUI>
   <TemplateURL/>
