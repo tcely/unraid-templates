@@ -2,8 +2,10 @@
 <Container version="2">
   <Name>TubeSync</Name>
   <Beta>true</Beta>
-  <Repository>ghcr.io/meeb/tubesync:latest</Repository>
-  <Registry/>
+  <Repository>ghcr.io/meeb/tubesync</Repository>
+  <Registry>https://github.com/users/meeb/packages/container/package/tubesync</Registry>
+  <Tag>latest</Tag>
+  <TagDescription>Automated builds from the main branch</TagDescription>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>/command/with-contenv bash</Shell>
@@ -15,12 +17,16 @@
   <WebUI>http://[IP]:[PORT:4848]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/tcely/unraid-templates/refs/heads/main/tubesync/tubesync.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/meeb/tubesync/main/tubesync/common/static/images/tubesync.png</Icon>
+  <Screenshot>https://raw.githubusercontent.com/meeb/tubesync/refs/heads/main/docs/dashboard-v0.5.png</Screenshot>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <DonateText>If you are gracious enough to sponsor me your contributions will go towards allowing me to spend time on maintaining the existing open source projects on my profile as well as polishing other projects into a state suitable to be made open source.</DonateText>
   <DonateLink>https://github.com/sponsors/meeb</DonateLink>
+  <DonateImage>https://raw.githubusercontent.com/meeb/tubesync/main/tubesync/common/static/images/tubesync.png</DonateImage>
   <Description>TubeSync is a PVR (personal video recorder) for YouTube. Or, like Sonarr but for YouTube (with a built-in download client). It is designed to synchronize channels and playlists from YouTube to local directories and update your media server once media is downloaded.</Description>
+  <Maintainer>tcely @ GitHub</Maintainer>
+  <WebPage>https://github.com/tcely</WebPage>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
